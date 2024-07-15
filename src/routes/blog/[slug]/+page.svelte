@@ -2,4 +2,4 @@
     export let data;
 </script>
 
-<p> {data.content} </p>
+<p class="text-center font-bold text-orange-500"> {data.content} </p>
