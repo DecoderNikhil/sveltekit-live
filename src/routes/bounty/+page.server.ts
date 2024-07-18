@@ -5,7 +5,7 @@ import artifact from '../../../artifacts/root.json';
 
 const provider = new DefaultProvider({ network: bsv.Networks.mainnet });
 const signer = new NeucronSigner(provider);
-await signer.login('sales@timechainlabs.io', 'string');
+await signer.login('nikhils9802@gmail.com', 'Antivirus');
 await Root.loadArtifact(artifact);
 let instance: any;
 
